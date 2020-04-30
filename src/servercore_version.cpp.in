@@ -1,0 +1,22 @@
+#include "pch.h"
+#include "servercore_version.h"
+std::string get_servercore_version()
+{
+    return "@servercore_VERSION@";
+}
+unsigned get_servercore_version_major()
+{
+    return @servercore_VERSION_MAJOR@;
+}
+unsigned get_servercore_version_minor()
+{
+    return @servercore_VERSION_MINOR@ +0;
+}
+unsigned get_servercore_version_patch()
+{
+    return @servercore_VERSION_PATCH@ +0;
+}
+unsigned get_servercore_version_tweak()
+{
+    return @servercore_VERSION_TWEAK@ +0;
+}
